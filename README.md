@@ -20,7 +20,11 @@ This project is a simple React application that fetches and displays posts from 
 ### 3. Fetching a Single Post  
 - Retrieve a **single post** based on the dynamic post ID.  
 - Display post details using the **Card Component**.  
-- Show a **"Loading..."** text while fetching data.  
+- Show a **"Loading..."** text while fetching data.
+
+## API Endpoints
+- Get all posts: https://jsonplaceholder.typicode.com/posts
+- Get a single post: https://jsonplaceholder.typicode.com/posts/:id
 
 
 ## Run Project
