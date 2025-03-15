@@ -30,3 +30,5 @@ This project is a simple React application that fetches and displays posts from 
 ## Run Project
 - yarn install
 - yarn dev
+
+#### Watch the Final Output video (project_00000) that available in the folder.
