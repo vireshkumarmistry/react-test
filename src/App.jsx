@@ -2,8 +2,6 @@ import { Link, Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import reactLogo from "./assets/react.svg";
 
 import "./App.css";
-import Posts from "./pages/post";
-import PostDetails from "./pages/postDetails";
 
 function App() {
   return (
@@ -25,8 +23,7 @@ function App() {
             </div>
           }
         />
-        <Route path="/posts" element={<Posts />} />
-        <Route path="/post/:id" element={<PostDetails />} />
+        {/* ADD ROUTES HERE */}
       </Routes>
     </Router>
   );
